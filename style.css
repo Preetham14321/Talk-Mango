@@ -7,17 +7,18 @@
     --linear-gradient :var(--linear-gradient)
 } */
 body {
-  background: linear-gradient(to right, rgb(255, 255, 102), rgb(201, 201, 156));
+  background: linear-gradient(to left, rgb(255, 255, 102), rgb(201, 201, 156));
 }
-
-.heading {
-  display: flex;
-
-  margin: 71px;
-  padding: 10px;
-}
-
-.box {
-  border: 2px solid black;
-  height: 50vh;
+@media screen and (max-width: 726px) {
+  .heading {
+    text-align: center;
+  }
+  .textarea {
+    width: 401px;
+    height: 20vh;
+    display: block;
+    margin: 0.6em;
+    margin-bottom: 4em;
+    padding: 3.2em;
+  }
 }

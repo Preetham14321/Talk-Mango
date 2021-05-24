@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* :root {
+    --linear-gradient :var(--linear-gradient)
+} */
+body {
+  background: linear-gradient(to right, rgb(255, 255, 102), rgb(201, 201, 156));
+}
+
+.heading {
+  display: flex;
+
+  margin: 71px;
+  padding: 10px;
+}
+
+.box {
+  border: 2px solid black;
+  height: 50vh;
+}

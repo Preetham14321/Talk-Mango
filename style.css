@@ -14,11 +14,10 @@ body {
     text-align: center;
   }
   .textarea {
-    width: 401px;
+    width: 90vw;
     height: 20vh;
     display: block;
-    margin: 0.6em;
-    margin-bottom: 4em;
+    margin: 1.3em;
     padding: 3.2em;
   }
 }

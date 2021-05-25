@@ -6,7 +6,7 @@
 body {
   background: linear-gradient(to right, rgb(255, 255, 102), rgb(201, 201, 156));
 }
-@media screen and (max-width: 726px) {
+@media screen and (max-width: 1000px) {
   .heading {
     text-align: center;
   }
@@ -14,8 +14,9 @@ body {
     width: 90vw;
     height: 20vh;
     display: block;
-    margin: 1.3em;
+
     padding: 1.2em;
+    margin: auto;
   }
   .output {
     border: 1px solid black;
@@ -32,6 +33,7 @@ body {
     display: block;
     margin: auto;
     padding: 0.5em;
+    margin-top: 10px;
 
     /* opacity: 0.5; */
   }
@@ -40,5 +42,12 @@ body {
     color: white;
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
       "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  .msg {
+    margin: 10px;
+    text-align: center;
+  }
+  .output {
+    margin: auto;
   }
 }

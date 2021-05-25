@@ -7,6 +7,50 @@ body {
   background: linear-gradient(to right, rgb(255, 255, 102), rgb(201, 201, 156));
 }
 
+.heading {
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 17px;
+}
+.textarea {
+  width: 50vw;
+  height: 20vh;
+  display: block;
+
+  padding: 1.2em;
+  margin: auto;
+}
+.output {
+  border: 1px solid black;
+  width: 55vw;
+  height: 18vh;
+  display: block;
+  margin: 1.3em;
+  padding: 1.2em;
+  background-color: #f2f2f2;
+  overflow: scroll;
+  word-spacing: 1.7px;
+}
+#btn-Translate {
+  display: block;
+  margin: auto;
+  padding: 0.5em;
+  margin-top: 10px;
+}
+#btn-Translate:hover {
+  background: #a6a6a6;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.msg {
+  margin: 10px;
+  text-align: center;
+}
+.output {
+  margin: auto;
+}
+
 @media screen and (max-width: 1000px) {
   .heading {
     text-align: center;
@@ -37,8 +81,6 @@ body {
     margin: auto;
     padding: 0.5em;
     margin-top: 10px;
-
-    /* opacity: 0.5; */
   }
   #btn-Translate:hover {
     background: #a6a6a6;
@@ -52,5 +94,8 @@ body {
   }
   .output {
     margin: auto;
+  }
+  .appContent {
+    opacity: 0;
   }
 }
